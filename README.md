@@ -3,7 +3,7 @@
 
 # How to run this project
 
-.Clone this project,Open with JMeter / Command Shell,Run Command:
+*Clone this project,Open with JMeter / Command Shell,Run Command:*
 
 jmeter -n -t Performancetesting_T500.jmx -l report\Performancetesting_T500.jtl
 jmeter -g report\Performancetesting_T500_T500.jtl -o report\Performancetesting_T500.html
