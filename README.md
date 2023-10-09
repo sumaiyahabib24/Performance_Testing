@@ -3,11 +3,9 @@
 
 # How to run this project
 
-.Clone this project
-.Open with JMeter / Command Shell
-.Run Command:
+.Clone this project,Open with JMeter / Command Shell,Run Command:
 
-jmeter -n -t Hotel-Booking-Project_T500.jmx -l report\Performancetesting_T500.jtl
+jmeter -n -t Performancetesting_T500.jmx -l report\Performancetesting_T500.jtl
 jmeter -g report\Performancetesting_T500_T500.jtl -o report\Performancetesting_T500.html
 
 jmeter -n -t Performancetesting_T1000.jmx -l report\Performancetesting_T1000.jtl
@@ -31,7 +29,7 @@ https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking
 
 # Reporting in jmeter
 
-I’ve completed performance test on frequently used API for test App. Test executed for the below mentioned scenario in https://restful-booker.herokuapp.com/
+I’ve completed performance test on frequently used API for test App. Test executed for the below mentioned scenario in https:https://blazedemo.com/
 
 500 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 35 And Total Concurrent API requested: 3000.
 1000 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 100 And Total Concurrent API requested: 6000.
